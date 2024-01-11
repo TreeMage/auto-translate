@@ -1,0 +1,670 @@
+
+ icon on the toolbar to define the marking type and mark.
+ icon on the toolbar.
+ icon to see its metrics and edit some of its parameters.
+ icons on the toolbar to see the calculations.
+Action
+Add
+Add Comment
+Add Folder
+Add Textbox
+Add measurement report page
+Admin
+After creating shapes, you will see here a list of all calculations by color.
+All calculations for inactive pages are ignored
+Amount
+Angle °
+AngleGuide
+AngleWarning.new
+AppVersionChecker.button
+AppVersionChecker.description
+AppVersionChecker.title
+Archive
+Are you sure you want to reset all your markings?
+Are you sure you want to unhide all hidden entities?
+Area
+Auto mark
+Bug
+Bulk edit {{nShapes}} shapes
+CSV
+Calculations
+Calculations are in centimeters
+Calibration
+Cancel
+Categories
+Categories.tabs.categoryCustoms
+Categories.tabs.costConfigurator
+Categories.tabs.general
+Category
+Category is required
+Choose a category
+Choose size
+Choose your preferred language for the interface
+Close
+Color
+Compressed (Faster)
+Copy
+Copy Calibration
+Could not delete a category
+Count
+Create folder with {{nShapes}} shapes
+Created at
+Created by
+Customize your experience by adjusting the settings below
+Delete
+Delete Comment
+Delete {{nShapes}} shapes
+Deleted
+Department
+Departments
+Depth
+Description
+Description is required
+Download
+Download File
+Edit
+Edit Pages
+Edit Shapes
+Edit User
+Email
+Email field is incorrect
+Error while marking
+Excel
+Experimental
+Export 3d screenshot to PDF
+Export PDF
+Export floor plan to PDF
+Feature Request
+File name
+Filter Openings
+Folder
+Font Weight
+Fontsize
+Formula
+Formula Name
+Generating PDF
+Get Started
+Gross Area
+Height
+Height Values
+Hide
+Hide element
+Home
+Hotkeys
+How critical is this?
+Icon
+Indicators
+Inner Wall
+InvalidProjectUrlScreen.infotext
+Issue Type
+Lenght
+Length
+Lines
+Loading pages...
+Loading shapes...
+Locked for clicking
+MARK
+Mark
+Material
+Materials
+Maximum width
+Measures
+Metric
+Name
+Net Area
+No measurements
+No shapes
+None
+Offset
+Openings
+Original
+Other
+Outer Wall
+Overlay
+PDF export failed
+Page
+Page duplicated
+Perimeter
+Place indicators
+Please enter the real length of this line
+Please input the folder name
+Please select a metric
+Please select first at least one entity to mark
+Please select length
+Please, inform a maximum width for the indicators
+Please, select at least one storey
+PleaseSelect
+Preferences are updated successful
+Price
+Project
+Project is required
+Project.Default.Height.Guide
+Projects
+Properties
+Quantities
+Range
+Redo Markings
+Remove
+Remove category
+Report Issue
+Reset markings
+Resource
+Restore
+Results
+Save
+Save changes
+Save rotation
+Select Element to Edit
+Select Supplier
+Select a metric
+Select all
+Select all children
+Select export quality
+Select your preferred currency for displaying prices
+Select your preferred system of measurement for units
+Selected Shape
+Selected supplier
+Send Invitation
+Sending
+Sending failed
+Settings
+Severity is required
+Shapes
+Shapes Selected
+Shortcut
+Show Archived
+Show all
+Show all openings
+Show all unique openings
+Show unique
+ShowCalculations
+ShowCategories
+Sign Out
+Something went wrong
+Split in segments
+Sr.
+Storeys
+Storeys to auto mark
+Submit issue
+Success!
+Text
+Thickness
+This Page Calculations
+This field is required
+This is taking more time...
+This page has its own calibration
+This page is already calibrated
+To see the properties of an element, click on any entity on the 3D or 2D view.
+Total
+Total Calculations
+Type
+UNMARK
+Unable download Excel.
+Unable to fetch openings data
+Undo
+Undo Markings
+Unhide
+Unhide all entities
+User Email
+User Name
+Users
+VALIDATION_MILLIMETERS
+We are updating Modulize with cool features. We will be right back!
+We will notify you as soon as your file is ready!
+Width
+Workspace
+Write a comment
+Xray
+Yes
+Yes, use this
+You can also choose and auto-mark entire stories by clicking on the 
+You can also select a specific shape using the 
+You can either wait or close this modal.
+You cannot freeze costs\n
+You must create at least one shape using the 
+addCategory
+addImage.delete.confirm
+addImage.delete.error
+addImage.fetch.error
+addImage.modal.chooseFile
+addImage.modal.okButton
+addImage.modal.organizationImages
+addImage.modal.refresh
+addImage.modal.title
+addImage.modal.uploadImage
+addImage.modal.userImages
+addImage.upload.error
+addImage.upload.successful
+addProjectScopedCategory
+addResource.create
+addResource.description
+addResource.header
+addResource.latest
+addResource.noData
+addResource.reset
+addResource.searching
+addpoint
+arrow
+as
+autocomplete.toast.message
+automark.feature
+automark.feature.area
+automark.feature.doors
+automark.feature.folder-notification
+automark.feature.outer
+automark.non-paying-user.buttonText
+automark.non-paying-user.description
+automark.non-paying-user.title
+automark.title
+automaticFrozenCost.resourceSettingsChanged.InfoModal.body
+automaticFrozenCost.resourceSettingsChanged.InfoModal.title
+base.saved
+calculation.paddingScale
+calculations
+calculations.addButton
+calculations.box.error
+calculations.calibrate.missing
+calculations.calibrate.option1.part1
+calculations.calibrate.option1.part2
+calculations.calibrate.option1.part3-1
+calculations.calibrate.option1.part3-2
+calculations.calibrate.pageOrientation
+calculations.calibrate.pageOrientation.landscape
+calculations.calibrate.pageOrientation.portrait
+calculations.calibrate.pageSize
+calculations.calibrate.save
+calculations.calibrate.scale
+calculations.calibrate.sectionHeading
+calculations.minColSelection
+calibrationInBulkWarning
+categories.addCategory
+categories.clearAll
+categories.creation.failure
+categories.creation.success
+categories.customizations
+categories.editing.failure
+categories.editing.success
+categories.filterText
+categories.formulas
+categories.lastEdited
+categories.name
+categories.opacity
+categories.outerWall
+categories.pickColor
+categories.pickColorDescription
+categories.pickColorWarning
+categories.search
+categories.showArchived
+category.delete.failure.modal.buttonText
+categoryCustoms.add
+categoryCustoms.description
+categoryCustoms.edit.error.notification
+categoryCustoms.infoAboutDefaultValue
+categoryCustoms.input.label
+categoryCustoms.noInfo
+categoryCustoms.rules.name
+categoryCustoms.rules.option
+categoryCustoms.setDefaultName
+categoryCustoms.setName
+categoryCustoms.value.add
+categorySelector.mixed.placeholder
+categorySelector.notFound.placeholder
+category_already_used{{nTimes}}
+close.right.sidebar
+comment
+comment.formitem.write.comment.subtext
+configurator.nodes.customization
+configurator.nodes.noCustomizationsWarning
+configurator.sidebar.description
+configurator.sidebar.tabs.blocks
+configurator.sidebar.tabs.templates
+configurator.sidebar.tabs.test
+configurator.sidebar.title
+configurator.template.confirmApply
+configurator.template.confirmApply.description
+configurator.template.name.placeholder
+configurator.template.nodata
+configurator.template.save
+copy
+copy.done
+copy.notAllowed.multipleExclusions
+copyPage.error
+copyPage.menu
+costEstimator.configurator.nodes.constant
+costEstimator.configurator.nodes.input
+costEstimator.configurator.nodes.output
+costEstimator.configurator.resultBox.error
+costEstimator.configurator.warningHeight
+costEstimator.resourceCostConfigurationList.addNewButton
+costEstimator.resourceCostConfigurationList.headerText
+costEstimator.resourceCostConfigurationList.noData
+costEstimator.resourceCostConfigurationList.tag.configured
+costEstimator.resourceCostConfigurationList.tag.notConfigured
+currency
+customization.delete.failure.modal.buttonText
+customization.delete.failure.modal.title
+customization.tab.emptyValue
+customization.tab.fetchCustomizationFailed
+customization.tab.multipleShapesSelectedTextCount
+customization.tab.noShapeSelectedHeader
+customization.tab.noShapesSelectedText
+customization.tab.title
+customization_already_used{{resource}}
+deleteCategory
+deleteRevision
+departmentDeleteError
+disabledIFCMessage
+displaySegmentLengths
+editCategory
+editMode.allPointsSelected
+editMode.differentHeights
+editMode.message
+editMode.polygon.message
+editMode.title
+editProject.globalHeight.message
+editProject.infoText
+editProject.title
+editRevision
+editShape.form.item.ShapeOpacityItem.Slider.label
+editShapeForm.shapeName.charLimit
+errorScreen.contact
+errorScreen.infotext
+errorScreen.refresh
+errorScreen.subtitle
+errorScreen.title
+excel.amount
+excel.category
+excel.currencyCode
+excel.customizations
+excel.export.failed.notification.text
+excel.folderIndex
+excel.grossArea
+excel.grossVolume
+excel.height
+excel.isCalculated
+excel.length
+excel.linArea
+excel.name
+excel.netArea
+excel.netVolume
+excel.page
+excel.perimeter
+excel.points
+excel.radius
+excel.resource
+excel.structuralType
+excel.supplier
+excel.surfaceGrossArea
+excel.surfaceNetArea
+excel.totalPrice
+excel.type
+excel.unitPrice
+excel.width
+exclusion
+exclusionStartHeight.label
+export.pagesize
+exportExcel.frozenCostsModalTextBody
+exportExcel.frozenCostsModalTitle
+exportPDF.failure
+exportPDF.frozenCostsModalTextBody
+exportPDF.frozenCostsModalTitle
+exportPDF.success
+filename.invalid.characters
+filename.invalid.length
+folder
+folderTemplates.v2.folder.name
+folderTemplates.v2.folder.name.errorMessage
+folderTemplates.v2.folders.add
+folderTemplates.v2.folders.clear
+folderTemplates.v2.folders.explanation
+folderTemplates.v2.folders.title
+folderTemplates.v2.template.add.failure
+folderTemplates.v2.template.add.submit
+folderTemplates.v2.template.add.success
+folderTemplates.v2.template.add.title
+folderTemplates.v2.template.copy
+folderTemplates.v2.template.copy.failure
+folderTemplates.v2.template.copy.prefix
+folderTemplates.v2.template.copy.success
+folderTemplates.v2.template.delete
+folderTemplates.v2.template.delete.failure
+folderTemplates.v2.template.delete.success
+folderTemplates.v2.template.edit
+folderTemplates.v2.template.edit.failure
+folderTemplates.v2.template.edit.submit
+folderTemplates.v2.template.edit.success
+folderTemplates.v2.template.name
+folderTemplates.v2.template.name.errorMessage
+folderTemplates.v2.template.title
+foldertemplates
+formula.name
+formula.resource.name
+formula.resource.select.placeholder
+formula.resource.type.constant
+formula.resource.type.input
+ifc.downloadingStarted.description
+ifc.downloadingStarted.title
+ifc.floorPlanReady
+ifc.floorPlanReady.description
+ifc.floorPlanReady.goToPdfModule
+ifc.warnOldProjects
+landscape
+language
+left.sidebar.close.button.tooltip.text
+left.sidebar.open.button.tooltip.text
+leftSidebar.pages.header.title
+max
+measurement
+measurements
+min
+multiple
+multipleHeights.alert
+multipleHeights.reset
+newRevision
+notChromeWarningDescription
+notChromeWarningMessage
+old2D
+open.right.sidebar
+organization.delete.failure.modal.buttonText
+organization.delete.failure.modal.title
+organizationCategories
+overlayPage.modal.okButton
+overlayPage.modal.title
+page
+paste.done
+paste.moveExclusion
+pattern
+portrait
+preferences
+pricing
+projectScopedCategories
+projectScopedCategoryModalTitle
+quantities.sidebar.shapesSelected
+relevantQuantitySelector.description
+relevantQuantitySelector.title
+resource
+resource.author
+resource.fileResources
+resource.uploadDate
+resource.usedResources
+resources.delete.failure.modal.buttonText
+resources.delete.failure.modal.contentText
+resources.delete.failure.modal.titleText
+resources.delete.failure.modal.titleText.resourceInUse
+resources.heading
+resources.manualAdd.add.resetAll
+resources.manualAdd.add.resource
+resources.manualAdd.add.supplier
+resources.manualAdd.add.supplier.select.placeholder
+resources.manualAdd.description
+resources.manualAdd.edit
+resources.manualAdd.modal.create.failed
+resources.manualAdd.modal.create.success
+resources.manualAdd.modal.label.supplierName
+resources.manualAdd.modal.title.create
+resources.manualAdd.modal.title.edit
+resources.manualAdd.table.id
+resources.manualAdd.table.itemName
+resources.manualAdd.table.price
+resources.manualAdd.table.supplierName
+resources.manualAdd.table.unit
+resources.search
+resources.showOwnId
+resources.tab.description
+resources.tab.fieldMapping.button.done
+resources.tab.fieldMapping.currency
+resources.tab.fieldMapping.decimalSeparator
+resources.tab.fieldMapping.decimalSeparator.comma
+resources.tab.fieldMapping.decimalSeparator.dot
+resources.tab.fieldMapping.example
+resources.tab.fieldMapping.explanation
+resources.tab.fieldMapping.heading
+resources.tab.fieldMapping.input.placeholder
+resources.tab.fieldMapping.price
+resources.tab.fieldMapping.resourceId
+resources.tab.fieldMapping.resourceName
+resources.tab.fieldMapping.select.placeholder
+resources.tab.fieldMapping.select.required.error
+resources.tab.fieldMapping.select.required.label
+resources.tab.fieldMapping.supplierName
+resources.tab.fieldMapping.unit
+resources.tab.fieldMapping.warningNoNumber
+resources.tab.optionalFieldMapping.explanation
+resources.tab.upload.explanation
+resources.tab.upload.failed
+resources.tab.upload.heading
+resources.tab.upload.success
+restoreRevision
+restoreRevisionWarning
+revisions
+revisions.submit
+rightSidebar.calibration.cancel
+rightSidebar.calibration.edit
+rightSidebar.calibration.field.label
+rightSidebar.calibration.info
+rightSidebar.calibration.save
+rightSidebar.calibration.scaleRatio.error
+rightSidebar.calibration.scaleRatio.info
+rightSidebar.calibration.title
+rightSidebar.costPresentation.currency.mixed
+rightSidebar.costPresentation.frozenCostModal.acceptButton
+rightSidebar.costPresentation.frozenCostModal.modalBody
+rightSidebar.costPresentation.frozenCostModal.title
+rightSidebar.costPresentation.noCosts.description
+rightSidebar.costPresentation.noCosts.mainButton
+rightSidebar.costPresentation.noCosts.title
+rightSidebar.costPresentation.title
+rightSidebar.customs.newConfiguration
+rightSidebar.customs.noCustoms.mainButtonText
+rightSidebar.customs.noCustoms.textWithButton
+rightSidebar.customs.noCustoms.textWithoutButton
+rightSidebar.customs.noCustoms.title
+rightSidebar.frozenCosts.modal.onFirstManualSetButtonText
+rightSidebar.frozenCosts.modal.onFirstManualSetDescription
+rightSidebar.frozenCosts.modal.onFirstManualSetTitle
+rightSidebar.frozenCosts.switch.checked
+rightSidebar.frozenCosts.switch.unchecked
+rightSidebar.frozenCosts.toast.onFirstSet
+rightSidebar.frozenCosts.toolTip.description
+rightSidebar.frozenCosts.warningMessageOnSelectedShapes
+rightSidebar.header.readMore
+save.shape.indicator.error
+save.shape.indicator.error.tootip.message
+save.shape.indicator.loading
+save.shape.indicator.success
+select.supplier.for.resource.modal.apply.to.all.checkbox.text
+select.supplier.for.resource.modal.error.text
+select.supplier.for.resource.modal.no.suppliers.available
+select.supplier.for.resource.modal.update.button.text
+selected entity
+settings.clear-all
+settings.invite.addButton
+settings.invite.changes.sent.description
+settings.invite.changes.sent.title
+settings.invite.nousers
+settings.invite.sent.description
+settings.invite.sent.title
+settings.reset-all
+settings.users.invite.modal.description
+settings.users.invite.modal.header
+shape.type.legend
+shapeContextMenu.all.same.category
+shapeContextMenu.defaultItems.editPoints
+shapeContextMenu.editGeometryItems.exit
+shareModal.addGroupButton.text
+shareModal.addGroupFirstTime.text
+shareModal.description.text
+shareModal.doneButton.text
+shareModal.header.text
+shareModal.shareGroup.addEmailButton.text
+shareModal.shareGroup.email.error
+shareModal.shareGroup.email.placeholder
+shareModal.shareGroup.emailOptionsMenu.remove
+shareModal.shareGroup.emailOptionsMenu.resendLink
+shareModal.shareGroup.emailOptionsMenu.resendLink.error
+shareModal.shareGroup.emailOptionsMenu.resendLink.success
+shareModal.shareGroup.emails.label
+shareModal.shareGroup.emails.tooltip
+shareModal.shareGroup.empty.description
+shareModal.shareGroup.empty.title
+shareModal.shareGroup.failedValidation.text
+shareModal.shareGroup.header.title
+shareModal.shareGroup.header.unnamedGroup.title
+shareModal.shareGroup.header.viewerCount
+shareModal.shareGroup.organizationName.error
+shareModal.shareGroup.organizationName.label
+shareModal.shareGroup.organizationName.placeholder
+shareModal.shareGroup.removeGroup.confirm.description
+shareModal.shareGroup.removeGroup.confirm.title
+shareModal.shareGroup.removeGroup.text
+shareModal.submit.fail
+shareModal.submit.success
+shareView.3dPreview.unCalibratedPage.toast
+shareView.aboutModulizeModal.body
+shareView.aboutModulizeModal.close
+shareView.aboutModulizeModal.title
+shareView.rightSidebar.comment.delete
+shareView.rightSidebar.date.today
+shareView.rightSidebar.date.yesterday
+shareView.toolbar.3dPreview.textPrefix
+shareView.toolbar.shareButton.text
+shareView.toolbar.usageModal.button.show
+shareView.toolbar.usageModal.tooltip.show
+stroke
+structuralTypeLabel
+structuralTypePlaceholder
+switch.measurements
+switch.pricing
+switch.suppliers
+testMenu.header.text
+tool.exclusion.warning.leavingShape.message
+tool.exclusion.warning.notAllowed.message
+tool.exclusion.warning.notSameCategory.message
+tool.exclusion.warning.overlapping.message
+tool.exclusion.warning.polylineExclusionBetween.message
+tool.exclusion.warning.tooSmall.message
+tool.multipleExclusions.warning.notSameParent
+toolMeasureTitle.legend
+toolTitle.measurementLine
+toolTitle.panzoom
+toolTitle.select
+toolbar.shareView.3dPreview.tooltip
+toolbar.shareView.share.tooltip
+tools.selectedShapesWithExclusions.warning.needsParents
+tooltip.wallcut
+topbar.aboutModulize.title
+topbar.getStarted.modal.header
+topbar.getStarted.title
+topbar.help.title
+topbar.middle.viewerMode.text
+topbar.middle.viewerMode.tooltip
+topbar.tabs.offer
+topbar.tabs.quantitiesAndCosts
+topbar.tabs.share
+topbar.tabs.share.newFeature.text
+under.maintenance.info.message
+values
+wall cut
+warningMessage.OK
+warningMessage.text
+warningMessage.title
