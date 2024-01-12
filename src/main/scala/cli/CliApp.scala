@@ -1,29 +1,24 @@
 package cli
 
-trait CliApp[State, Input, Output]:
-  def run(initialState: State): Unit
+import com.monovore.decline.Command
 
-object CliApp:
-  def make[State, Input, Output](
-      step: (State, Option[Input]) => (State, Output),
-      parseInput: String => Option[Input],
-      formatOutput: Output => String,
-      initialOutput: Output,
-      exit: State => Boolean,
-      requiresInput: State => Boolean
-  ): CliApp[State, Input, Output] = new CliApp[State, Input, Output]:
-    override def run(initialState: State): Unit =
-      var state = initialState
-      println(formatOutput(initialOutput))
-      while (!exit(state))
-        if (requiresInput(state))
-          parseInput(io.StdIn.readLine()) match
-            case input @ Some(_) =>
-              val (newState, output) = step(state, input)
-              println(formatOutput(output))
-              state = newState
-            case None => Console.err.println("Invalid input.")
-        else
-          val (newState, output) = step(state, None)
-          println(formatOutput(output))
-          state = newState
+object CliApp {
+  private val command = Command(
+    name = "auto-translate",
+    header =
+      "A tool for discovering, translating and posting new translation keys in projects using react/i18n-next."
+  )(
+    InitializeCommand.command orElse SnapshotCommand.command orElse RunCommand.command
+  )
+  def run(args: Seq[String], env: Map[String, String]): Unit =
+    command.parse(args, env) match
+      case Left(help) if help.errors.isEmpty =>
+        println(help)
+        sys.exit(0)
+
+      case Left(help) =>
+        System.err.println(help)
+        sys.exit(1)
+
+      case Right(_) => ()
+}

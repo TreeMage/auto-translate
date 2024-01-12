@@ -8,6 +8,7 @@ trait DiffFileManager:
   def readKeysFromFile(path: Path): Either[Throwable, Set[String]]
 
   def writeKeysToFile(path: Path, keys: Set[String]): Either[Throwable, Unit]
+  def addKeysToFile(path: Path, keys: Set[String]): Either[Throwable, Unit]
 
 object DiffFileManager:
   val make: DiffFileManager = new DiffFileManager:
@@ -19,5 +20,13 @@ object DiffFileManager:
         keys: Set[String]
     ): Either[Throwable, Unit] =
       Using(new FileWriter(path.toFile)) { writer =>
+        keys.toList.sorted.foreach(key => writer.write(s"$key\n"))
+      }.toEither
+
+    override def addKeysToFile(
+        path: Path,
+        keys: Set[String]
+    ): Either[Throwable, Unit] =
+      Using(new FileWriter(path.toFile, true)) { writer =>
         keys.toList.sorted.foreach(key => writer.write(s"$key\n"))
       }.toEither

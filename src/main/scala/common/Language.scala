@@ -13,10 +13,11 @@ object Language:
       case "norwegian" => Some(Language.Norwegian)
       case _           => None
 
+  def all: List[Language] = Language.values.toList
   given ReadWriter[Language] = readwriter[String].bimap[Language](
     {
-      case Language.English   => "EN"
-      case Language.Norwegian => "NB"
+      case English   => "EN"
+      case Norwegian => "NB"
     },
     {
       case "EN" => Language.English
