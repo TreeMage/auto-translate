@@ -1,32 +1,28 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-name: Scala CI
+name: Release
 
 on:
   push:
-    branches: [ "main" ]
-
-permissions:
-  contents: read
+    tags:
+      - '*'
 
 jobs:
+
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up JDK 20
-      uses: actions/setup-java@v3
-      with:
-        java-version: '20'
-        distribution: 'temurin'
-        cache: 'sbt'
-    - name: Package JAR
-      run: sbt assembly
-    - name: Upload artifact
-      uses: actions/upload-artifact@v3
-      with:
-        path: dist
-        name: artifacts
+      - uses: actions/checkout@v3
+      - name: Set up JDK 20
+        uses: actions/setup-java@v3
+        with:
+          java-version: '20'
+          distribution: 'temurin'
+          cache: 'sbt'
+      - name: Package JAR
+        run: sbt assembly
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: "dist/auto-translate.jar"
+          artifactContentType: "application/java-archive"
+          artifactErrorsFailBuild: "true"
