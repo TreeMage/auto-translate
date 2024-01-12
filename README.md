@@ -24,7 +24,7 @@ a directory that is included in your `$PATH` (e.g `/usr/local/bin`):
 java -jar path/to/the/jar/auto-translate.jar $@
 ```
 Name this script `auto-translate` and mark it executable (via `chmod u+x auto-translate`)
-You can then invoke the tool by just typing `./auto-translate`
+You can then invoke the tool by just typing `auto-translate`
 
 ## Usage
 The tool is used in three phases:
