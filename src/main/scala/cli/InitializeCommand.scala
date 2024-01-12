@@ -16,13 +16,13 @@ object InitializeCommand:
     Command(
       name = "init",
       header =
-        "Generates config files and sets up auto-translate for the current project"
+        "Generates config files and sets up auto-translate for the current project."
     )(
       options.map { config =>
         val configDirectory =
           config.projectPath.resolve(Constants.configDirectoryName)
         println(s"Creating configuration in $configDirectory.")
-        if(!configDirectory.toFile.exists)
+        if (!configDirectory.toFile.exists)
           val directoryCreated = configDirectory.toFile.mkdirs()
           if (!directoryCreated)
             Console.err.println("Failed to create configuration directory.")
@@ -51,14 +51,14 @@ object InitializeCommand:
       help = "Project directory to initialize"
     )
     .withDefault(Paths.get(""))
-    .map(_.resolveHome)
+    .map(_.resolveHome.toAbsolutePath)
     .map(InitializeConfig.apply)
 
   private def makeDefaultConfig(projectPath: Path) =
     AppConfig(
       projectPath.resolve("src"),
       projectPath.resolve(Constants.relativeKeyFilePath),
-      DeepLConfig("api-free.deepl.com", ""),
+      DeepLConfig("https://api-free.deepl.com", "YOUR_API_KEY_HERE"),
       SlackConfig(""),
-      SimpleLocalizeConfig("https://api.simplelocalize.io", "")
+      SimpleLocalizeConfig("https://api.simplelocalize.io", "YOUR_APU_KEY_HERE")
     )

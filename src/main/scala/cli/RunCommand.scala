@@ -21,7 +21,7 @@ object RunCommand:
   lazy val command: Opts[Unit] = Opts.subcommand(
     Command(
       name = "run",
-      header = "run the auto-translate tool"
+      header = "Run the auto-translate tool."
     )(options.map { config =>
       Try(io.Source.fromFile(config.configFilePath.toFile)).map(source =>
         read[AppConfig](source.mkString)

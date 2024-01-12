@@ -8,7 +8,9 @@ lazy val root = project
     name         := "auto-translate",
     version      := "0.1.0-SNAPSHOT",
     scalaVersion := scala3Version,
-    assembly /assemblyOutputPath := Paths.get("dist/auto-translate.jar").toFile,
+    assembly / assemblyOutputPath := Paths
+      .get("dist/auto-translate.jar")
+      .toFile,
     libraryDependencies ++= Seq(
       "org.scalameta"                 %% "munit"     % "0.7.29" % Test,
       "com.softwaremill.sttp.client3" %% "core"      % "3.9.1",

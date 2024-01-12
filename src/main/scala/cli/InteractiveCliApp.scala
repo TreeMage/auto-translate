@@ -15,7 +15,7 @@ object InteractiveCliApp:
     new InteractiveCliApp[State, Input, Output]:
       override def run(initialState: State): Unit =
         var state = initialState
-        println(formatOutput(initialOutput))
+        print(formatOutput(initialOutput))
         while (!exit(state))
           if (requiresInput(state))
             parseInput(io.StdIn.readLine()) match
@@ -26,5 +26,5 @@ object InteractiveCliApp:
               case None => Console.err.println("Invalid input.")
           else
             val (newState, output) = step(state, None)
-            println(formatOutput(output))
+            print(formatOutput(output))
             state = newState
