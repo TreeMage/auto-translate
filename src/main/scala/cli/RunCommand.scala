@@ -1,12 +1,12 @@
 package cli
 
 import com.monovore.decline.{Command, Opts}
-import config.AppConfig
 
 import java.nio.file.{Path, Paths}
 import scala.util.{Failure, Success, Try}
 import upickle.default.*
 import cli.PathExtensions.*
+import common.AppConfig
 
 case class RunConfig(configFilePath: Path)
 

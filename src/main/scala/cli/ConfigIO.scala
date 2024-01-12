@@ -1,6 +1,6 @@
 package cli
 
-import config.AppConfig
+import common.AppConfig
 import upickle.default.read
 
 import java.nio.file.Path

@@ -1,19 +1,12 @@
 package cli
 
 import Output.{Empty, Error, Info, Multiple, Success}
-import State.{
-  FirstTranslation,
-  LanguageChosen,
-  ProvidedTranslation,
-  ReadKeys,
-  Translated
-}
+import State.{FirstTranslation, LanguageChosen, ProvidedTranslation, ReadKeys, Translated}
 import cli.InteractiveCliApp
-import common.Language
+import common.{AppConfig, Language}
 import extraction.{DiffFileManager, NewKeyExtractor}
 import translate.DeepLTranslator
 import cats.implicits.*
-import config.*
 import slack.{MessageFormatter, SlackClient}
 import upload.SimpleLocalizeTranslationUploader
 

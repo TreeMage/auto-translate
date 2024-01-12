@@ -1,7 +1,8 @@
-package config
+package common
+
+import upickle.default.*
 
 import java.nio.file.{Path, Paths}
-import upickle.default.*
 
 case class AppConfig(
     srcDir: Path,

@@ -21,7 +21,7 @@ object InteractiveCliApp:
             parseInput(io.StdIn.readLine()) match
               case input @ Some(_) =>
                 val (newState, output) = step(state, input)
-                println(formatOutput(output))
+                print(formatOutput(output))
                 state = newState
               case None => Console.err.println("Invalid input.")
           else

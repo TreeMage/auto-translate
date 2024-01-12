@@ -1,17 +1,18 @@
 package cli
 
 import com.monovore.decline.{Command, Opts}
-import config.{AppConfig, DeepLConfig, SimpleLocalizeConfig, SlackConfig}
 
 import java.io.PrintWriter
 import java.nio.file.{Path, Paths}
 import scala.util.{Failure, Success, Using}
 import upickle.default.*
 import cli.PathExtensions.*
+import common.{AppConfig, DeepLConfig, SimpleLocalizeConfig, SlackConfig}
 
 case class InitializeConfig(projectPath: Path)
 
 object InitializeCommand:
+  private val apiKeyPlaceholder = "<YOUR_API_KEY>"
   lazy val command: Opts[Unit] = Opts.subcommand(
     Command(
       name = "init",
@@ -58,7 +59,7 @@ object InitializeCommand:
     AppConfig(
       projectPath.resolve("src"),
       projectPath.resolve(Constants.relativeKeyFilePath),
-      DeepLConfig("https://api-free.deepl.com", "YOUR_API_KEY_HERE"),
+      DeepLConfig("https://api-free.deepl.com", apiKeyPlaceholder),
       SlackConfig(""),
-      SimpleLocalizeConfig("https://api.simplelocalize.io", "YOUR_APU_KEY_HERE")
+      SimpleLocalizeConfig("https://api.simplelocalize.io", apiKeyPlaceholder)
     )
