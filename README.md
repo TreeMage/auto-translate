@@ -1,5 +1,8 @@
 # Auto-Translate
-A tool to automate the translation process
+A tool to automate the translation process of react/i18-next projects. <br/>
+<br/>
+<span style="color:red">NOTE:</span> This tool was created during a hackathon. Therefore,
+code quality, tests, error handling, etc. might have suffered to get a usable version of this tool done as quickly as possible.
 ## Features
 This tool can semi-automates the translation process by providing the following features:
 1. Auto-detect new translation keys in a react/i18n-next project
